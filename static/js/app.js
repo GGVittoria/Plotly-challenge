@@ -96,7 +96,11 @@ function DrawBubblechart(sampleId) {
         // define bubble layout
         var bubbleLayout = {
             title: `Bacteria Samples for Subject ID No. ${sampleId}`,
-            xaxis: {title: "OTU ID"}
+            xaxis: {title:"OTU ID"},
+            yaxis: {title:"OTU Counts in Sample"},
+            showlegend: false,
+            height: 600,
+            width: 800
         }
 
         // draw bubble chart
