@@ -1,7 +1,7 @@
 // console.log because we can
 console.log("Belly Button Biodiversity Dashboard - this is app.js");
 
-// DISCLAIMER: MUCH OF THE BELOW CODE IS FROM DOM'S EXPERTISE DURING OFFICE HOURS WHILE HE WALKED US THROUGH THIS HOMEWORK
+// PLEASE NOTE: Most of the code below is from our instructor during office hours
 
 // function to draw bar graph
 function DrawBargraph(sampleId) {
