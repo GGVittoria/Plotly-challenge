@@ -15,7 +15,7 @@ function DrawBargraph(sampleId) {
         // console.log("Data for bar graph: ");
         // console.log(data);
 
-        // variable to find the sample data
+        // variable to to hold chart data
         var samples = data.samples;
 
         // filter to find the samples associated to the sample ID
@@ -65,7 +65,7 @@ function DrawBubblechart(sampleId) {
         // console.log("Data for bubble chart:");
         // console.log(data);
 
-        // variable to find the sample data
+        // variables to hold the bubble chart data
         var samples = data.samples;
 
         // filter to find the samples associated to the sample ID
@@ -78,8 +78,7 @@ function DrawBubblechart(sampleId) {
         var otu_ids = result.otu_ids;
         var otu_labels = result.otu_labels;
 
-        
-        // variable for the sample values returned for the sample ID
+                // variable for the sample values returned for the sample ID
         var sample_values = result.sample_values;
 
         // define bubble data
@@ -117,7 +116,7 @@ function ShowMetaData(sampleId) {
         // console.log("Data for meta data:");
         // console.log(data);
 
-        // variable to find meta data
+        // variable to hold meta data
         var metadata = data.metadata;
 
         // filter to find data for specific sample id
